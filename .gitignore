@@ -1,0 +1,48 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.env
+.env.*
+.nitro
+.tanstack
+.wrangler
+.output
+.vinxi
+__unconfig*
+todos.json
+*.log
+coverage/
+.idea/
+*.tsbuildinfo
+
+# Docs & media (prevent uploading to GitHub)
+doc/
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.zip
+*.tar.gz
+*.tgz
+
+# OS files
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Test coverage
+.coverage/
+coverage/
+.nyc_output/
+
+# Build artifacts
+build/
+.vite/
+.cache/
+.temp/
